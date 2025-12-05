@@ -85,7 +85,7 @@ uint8_t add_chat(char* username, char* message) {
     // Get current timestamp
     time_t now = time(NULL);
     struct tm* local = localtime(&now);
-    strftime(new_chat->timestamp, 20, "%Y-%m-%d %H:%M", local);
+    strftime(new_chat->timestamp, 20, "%Y-%m-%d %H:%M:%S", local);
     
     new_chat->reaction_count = 0;
     chat_count++;
