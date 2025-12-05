@@ -14,5 +14,6 @@
 void start_server(void(*handler)(char*, int), int port);
 
 #define BUFFER_SIZE 2048
+#define MAX_CHATS 100000
 
 #endif
