@@ -19,7 +19,6 @@ Welcome to the **Web Chat Server**! This project implements a simple and efficie
 
 ## 📁 File Structure
 
-├── CREDITS.txt # Acknowledgments for the project
 ├── README.md # This file
 ├── Makefile # For building the server
 ├── chat-server.c # Main logic of the server
