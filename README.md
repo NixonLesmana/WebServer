@@ -19,11 +19,11 @@ Welcome to the **Web Chat Server**! This project implements a simple and efficie
 
 ## 📁 File Structure
  
-|-- README.md # This file
-|-- Makefile # For building the server
-|-- chat-server.c # Main logic of the server
-|-- chat-server.o # Compiled object file
-|-- http-server.c # HTTP handling logic
-|-- http-server.h # Header file for the HTTP server
-|-- http-server.o # Compiled object file
+- README.md # This file
+- Makefile # For building the server
+- chat-server.c # Main logic of the server
+- chat-server.o # Compiled object file
+- http-server.c # HTTP handling logic
+- http-server.h # Header file for the HTTP server
+- http-server.o # Compiled object file
 
